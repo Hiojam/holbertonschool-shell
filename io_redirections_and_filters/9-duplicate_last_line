@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -q -n 1 b b
+tail -q -n 1 iacta iacta
