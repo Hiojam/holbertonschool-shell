@@ -5,7 +5,7 @@ read fileName
 echo "Introduce el código: "
 echo ""
 read code
-echo "#!/bin/bash" >> $fileName
+echo "#!/bin/bash" > $fileName
 echo $code >> $fileName
 chmod 777 $fileName
 
