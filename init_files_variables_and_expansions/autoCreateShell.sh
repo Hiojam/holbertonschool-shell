@@ -6,7 +6,7 @@ echo "Introduce el código: "
 echo ""
 read code
 echo "#!/bin/bash" > $fileName
-echo $code >> $fileName
+echo "$code" >> $fileName
 chmod 777 $fileName
 
 echo "Quieres crear un commit y push con este archivo? 0 = No, 1 = Si"
