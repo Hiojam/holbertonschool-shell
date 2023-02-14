@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `awk -F: '{print NF}' <<<"$PATH"`
+find -L . -mindepth 1 -type d | wc -l
